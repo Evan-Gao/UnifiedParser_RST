@@ -92,7 +92,7 @@ if __name__ == '__main__':
 
 
     loadpath = r'/home/lin/Segmentation/ELMo/SegData'
-    tr_x = pickle.load( open(os.path.join(loadpath,"Training_InputSentences_seg.pickle"),"rb"))
+    tr_x = pickle.load(open(os.path.join(loadpath,"Training_InputSentences_seg.pickle"),"rb"))
     tr_y = pickle.load(open(os.path.join(loadpath,"Training_EDUBreaks_seg.pickle"), "rb"))
 
     dev_x = pickle.load(open(os.path.join(loadpath,"Testing_InputSentences_seg.pickle"),"rb"))
